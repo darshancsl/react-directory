@@ -1,0 +1,29 @@
+.board {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.col {
+  height: 141px;
+  box-shadow: 0 0 3px #999;
+  padding: 0px !important;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.col:hover {
+  background-color: #444;
+}
+
+.reset-btn {
+  padding: 5px 20px;
+  border: none;
+  margin: 10px;
+  color: #fff;
+  background-color: #2a5050;
+  transition: all 0.1s ease-out;
+}
+
+.reset-btn:hover {
+  background-color: #243939;
+}
