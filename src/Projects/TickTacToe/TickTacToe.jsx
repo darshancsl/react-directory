@@ -69,16 +69,16 @@ const TickTacToe = () => {
   return (
     <section className='bg-default'>
       <h1 className='fs-2 fw-bold text-center py-4 text-light'>Tick Tac Toe</h1>
-      {isWinner && (
-        <div className='d-flex justify-content-center w-75 mx-auto'>
+      <div className='d-flex justify-content-center w-75 mx-auto'>
+        {isWinner && (
           <h1 className='text-success mb-4'>{`Player "${isWinner}" is Winner`}</h1>
-          <div>
-            <button className='reset-btn' onClick={resetGame}>
-              Reset
-            </button>
-          </div>
+        )}
+        <div>
+          <button className='reset-btn' onClick={resetGame}>
+            Reset
+          </button>
         </div>
-      )}
+      </div>
       <div className='board'>
         {gameList.reduce((rows, item, index) => {
           if (index % 3 === 0) {
