@@ -27,3 +27,30 @@
 .reset-btn:hover {
   background-color: #243939;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .board {
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .col {
+    height: 91px;
+    box-shadow: 0 0 3px #999;
+    padding: 0px !important;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+  h1.mb-4 {
+    font-size: 15px;
+    margin-bottom: 0px !important;
+    line-height: 2.5;
+  }
+
+  .reset-btn {
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+}

@@ -6,42 +6,7 @@ export const projectList = [
     component: 'TickTacToe'
   },
   {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
-  },
-  {
-    id: '1',
+    id: '2',
     name: 'Tick Tac Toe',
     path: 'ticktacktoe'
   },
