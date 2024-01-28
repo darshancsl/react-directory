@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const TextArea = ({ name, placeHolder, value, data, setData }) => {
   const onChange = (val) => {
