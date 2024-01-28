@@ -1,5 +1,5 @@
 export const validateErrors = (formData) => {
-  const { question, answer, code, category } = formData;
+  const { question, answer } = formData;
   let errors = {};
 
   if (question === '') {
