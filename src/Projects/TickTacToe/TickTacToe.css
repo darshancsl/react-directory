@@ -1,9 +1,9 @@
-.board {
+#tickTacToe .board {
   max-width: 400px;
   margin: 0 auto;
 }
 
-.col {
+#tickTacToe .col {
   height: 141px;
   box-shadow: 0 0 3px #999;
   padding: 0px !important;
@@ -11,11 +11,11 @@
   transition: all 0.3s ease-out;
 }
 
-.col:hover {
+#tickTacToe .col:hover {
   background-color: #444;
 }
 
-.reset-btn {
+#tickTacToe .reset-btn {
   padding: 5px 20px;
   border: none;
   margin: 10px;
@@ -24,18 +24,18 @@
   transition: all 0.1s ease-out;
 }
 
-.reset-btn:hover {
+#tickTacToe .reset-btn:hover {
   background-color: #243939;
 }
 
 
 @media only screen and (max-width: 600px) {
-  .board {
+  #tickTacToe .board {
     max-width: 250px;
     width: 100%;
   }
 
-  .col {
+  #tickTacToe .col {
     height: 91px;
     box-shadow: 0 0 3px #999;
     padding: 0px !important;
@@ -43,13 +43,13 @@
     transition: all 0.3s ease-out;
   }
 
-  h1.mb-4 {
+  #tickTacToe h1.mb-4 {
     font-size: 15px;
     margin-bottom: 0px !important;
     line-height: 2.5;
   }
 
-  .reset-btn {
+  #tickTacToe .reset-btn {
     padding: 2px 5px;
     font-size: 12px;
   }

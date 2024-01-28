@@ -8,7 +8,7 @@ import { projectList } from "../Utils/projectList";
 import { createElement, lazy, Suspense } from "react";
 
 const importComponent = (path) =>
-  lazy(() => import(`../Projects/TickTacToe/${path}`));
+  lazy(() => import(`../Projects/${path}/${path}`));
 
 function App() {
   return (

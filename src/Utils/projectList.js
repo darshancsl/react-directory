@@ -7,7 +7,8 @@ export const projectList = [
   },
   {
     id: '2',
-    name: 'Tick Tac Toe',
-    path: 'ticktacktoe'
+    name: 'Notes App',
+    path: 'notes',
+    component: 'Notes'
   },
 ];

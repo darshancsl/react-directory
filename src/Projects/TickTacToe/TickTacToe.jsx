@@ -67,7 +67,7 @@ const TickTacToe = () => {
   }, [gameList]);
 
   return (
-    <section className='bg-default'>
+    <section id='tickTacToe' className='bg-default'>
       <h1 className='fs-2 fw-bold text-center py-4 text-light'>Tick Tac Toe</h1>
       <div className='d-flex justify-content-center w-75 mx-auto'>
         {isWinner && (
